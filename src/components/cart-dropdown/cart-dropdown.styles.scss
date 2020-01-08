@@ -25,5 +25,14 @@
     button {
       margin-top: auto;
     }
+    .total{
+      display: none;
+      font-size: 16px;
+      padding-left: 25%;
+    }
+    &:hover{
+      .total{
+        display: flex;
+      }
   }
-  
+}
